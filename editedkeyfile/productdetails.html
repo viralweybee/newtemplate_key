@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{GAtag}}
+    {{FacebookPixelCode}}
+    <meta charset="utf-8">
+    <title>{{ProductDetailsPageTitle}} - {{SiteTitle}} - {{KeyLine}}</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="{{SiteTitle}}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow " />
+    <link rel="canonical" href="{{Site-Url}}" />
+    <Meta name="language" content="English" />
+    <meta name="title" content="{{ProductDetailsPageTitle}} - {{SiteTitle}} - {{KeyLine}}">
+    <meta name="description" content="{{ProductDetailsPageTitle}} - {{ProductDetailsDescription}}" />
+    <meta name="keywords" content="{{ProductDetailsKeyword}}" />
+
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ProductDetailsPageTitle}} - {{SiteTitle}} - {{KeyLine}}" />
+    <meta property="og:description" content="{{ProductDetailsPageTitle}} - {{ProductDetailsDescription}}" />
+    <meta property="og:image" content="{{Logo}}" />
+    <meta property="og:url" content="{{Site-Url}}" />
+    <meta property="og:site_name" content="{{SiteTitle}}" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="{{SiteTitle}}" />
+    <meta name="twitter:title" content="{{ProductDetailsPageTitle}} - {{SiteTitle}} - {{KeyLine}}" />
+    <meta name="twitter:description" content="{{ProductDetailsPageTitle}} - {{ProductDetailsDescription}}" />
+    <meta name="twitter:image" content="{{Logo}}" />
+
+    <link rel="icon" type="image/x-icon" href="{{Favicon}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family={{PrimaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+        href="https://fonts.googleapis.com/css2?family={{PrimaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family={{PrimaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    </noscript>
+    <link rel="preload" as="style"
+        href="https://fonts.googleapis.com/css2?family={{SecondaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');"
+        href="https://fonts.googleapis.com/css2?family={{SecondaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    <noscript>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family={{SecondaryFont}}:wght@300;400;500;600;700;800;900&display=swap">
+    </noscript>
+    {{Style}}
+    {{Script}}
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@400;500;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        .about-us1 {
+            margin: 90px 0;
+        }
+
+        .about-us1 .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .about-us1-inside {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .decs {
+            font-size: 18px;
+        }
+
+        .about-us1-content {
+            padding-top: 0;
+            width: 540px;
+        }
+
+        .title p {
+            margin-top: 0;
+            font-size: 46px;
+        }
+
+   
+        @media (max-width:550px) {
+            .about-us1-img img {
+                width: 300px;
+                height: 250px;
+            }
+
+            .about-us1-content {
+                width: 300px;
+            }
+        }
+
+
+        .price h3 {
+            color: red;
+            padding: 10px;
+            text-decoration: line-through;
+        }
+
+        .buy{
+            display: flex;
+            justify-content: space-around;
+        }
+        .price h1{
+            margin: auto;
+            margin-top: 5px;
+        }
+        .but-btn button {
+            padding: 10px 40px;
+            background-color: #DFB163;
+            border: 1px solid #DFB163;
+            color: black;
+            font-size: 20px;
+
+        }
+
+        .but-btn button:hover {
+            cursor: pointer;
+            background-color: #cc902a;
+            color: black;
+        }
+    </style>
+</head>
+
+<body itemscope="" itemtype="https://schema.org/LocalBusiness">
+    <!--Header sections-->
+    {{Header}}
+    <!--Header sections-end-->
+    <!-- Page Header Start -->
+    <div class="container-fluid bg-secondary py-5">
+        <div class="container py-5">
+            <div class="row align-items-center py-4">
+                <div class="col-md-6 text-center text-md-left">
+                    <h1 class="mb-4 mb-md-0 text-primary text-uppercase">{{ProductDetailsPageTitle}}</h1>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="d-inline-flex align-items-center">
+                        <a class="btn btn-outline-primary" href="">Products</a>
+                        <i class="fas fa-angle-double-right text-primary mx-2"></i>
+                        <a class="btn btn-outline-primary disabled" href="">{{ProductDetailsPageTitle}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header Start -->
+    <!-- product details -->
+    <div class="about-us1 ">
+        <div class="container">
+            <div class="about-us1-inside">
+                <div class="about-us1-img" id="ProductDetailImage">
+                    <img src="{{ProductImage}}" srcset="{{ProductImageSrcSet}}"
+                        sizes="(max-width: 600px) 300px, 800px" alt="Social-Parsh" width="540px" height="384px"
+                        alt="{{ProductName}}" itemprop="image">
+                </div>
+                <div class="about-us1-content">
+                    <div class="title">
+                        <p> {{ProductName}}</p>
+                    </div>
+                    <div class="decs">
+                        <p>{{ProductDescription}}</p>
+                        
+                    </div>
+                    <div class="buy">
+                        <div class="price">
+                            <h1>{{ProductPrice}}</h1>
+                        </div>
+                        <div class="but-btn"><button>{{ProductButtonText}}</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <!--Footer sections-->
+      {{Footer}}
+      <!--Footer sections-end-->
+</body>
+
+</html>

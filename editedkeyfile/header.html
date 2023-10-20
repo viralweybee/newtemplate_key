@@ -1,0 +1,110 @@
+   <!-- Topbar Start -->
+   <div class="container-fluid bg-dark py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-center text-lg-left mb-2 mb-lg-0">
+                <!-- <div class="d-inline-flex align-items-center">
+                    <a class="text-white pr-3" href="">FAQs</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white px-3" href="">Help</a>
+                    <span class="text-white">|</span>
+                    <a class="text-white pl-3" href="">Support</a>
+                </div> -->
+            </div>
+            <div class="col-md-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <a class="text-white px-3" href="{{Facebook}}">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="text-white px-3" href="{{Twitter}}">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="text-white px-3" href="{{LinkedIn}}">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="text-white px-3" href="{{Instagram}}">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="text-white pl-3" href="{{YouTube}}">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+<!-- Navbar Start -->
+<div class="container-fluid position-relative nav-bar p-0" id="navbar_top">
+    <div class="container position-relative" style="z-index: 9;">
+        <nav class="navbar navbar-expand-lg bg-secondary navbar-dark py-3 py-lg-0 pl-3 pl-lg-5">
+            <a href="" class="navbar-brand">
+                <!-- <h1 class="m-0 display-5 text-white"><span class="text-primary">i</span>DESIGN</h1> -->
+                <img src="{{Logo}}" alt="{{SiteTitle}}" width="100%" height="100%"
+                    itemprop="image">
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between px-3" id="navbarCollapse">
+                <div class="navbar-nav ml-auto py-0" id="main_nav">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="{{AboutSlug}}" class="nav-item nav-link">About</a>
+                    <div class="nav-item dropdown"id="UserBusinessCategoryList">
+                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">{{BusinessTypes}}</a>
+                        <div class="dropdown-menu rounded-0 m-0"id="UBCLDropDown">
+                            <a href="{{Category}}.html" class="dropdown-item">{{CategoryName}}</a>
+                            
+                        </div>
+                    </div>
+                    <a href="update-page-1.html" class="nav-item nav-link">Updates</a>
+                    <a href="{{GallerySlug}}" class="nav-item nav-link">Gallery</a>
+                    {{HeaderCustomLinks}}
+                    <a href="{{CustomPage}}.html" itemscope=""id="HeaderCustomPage"
+                                itemtype="https://www.schema.org/SiteNavigationElement">{{CustomPageName}}</a>
+                    <a href="{{ContactSlug}}" class="nav-item nav-link">Contact Us</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar End -->
+
+
+<!-- Under Nav Start -->
+<div class="container-fluid bg-white py-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 text-left mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-office font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Our Office</h5>
+                        <p class="m-0">123 Street, New York, USA</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-center mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-email font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Email Us</h5>
+                        <p class="m-0">{{Email}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 text-left text-lg-right mb-3 mb-lg-0">
+                <div class="d-inline-flex text-left">
+                    <h1 class="flaticon-telephone font-weight-normal text-primary m-0 mr-3"></h1>
+                    <div class="d-flex flex-column">
+                        <h5>Call Us</h5>
+                        <p class="m-0">{{MobileNumber}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Under Nav End -->
